@@ -17,7 +17,7 @@ Il a pour objectif de concevoir un prototype d’outil d’aide à la correction
 
 ## **Documentation**
 
-Notre solution répond au problème ... . Elle consiste à ... . Cette solution s'adresse à ... .
+Notre solution répond au problème de la qualité et de la mise à jour des bases d'adresses, souvent collectées au fil du temps sans contrôle régulier. Elle consiste à croiser les bases d'adresses avec celles fournies par les communes et à proposer des mises à jour des données en fonction d'un éventail de conditions. Cette solution s'adresse à tous les organismes ou collectivités qui souhaiteraient valoriser leur base d'adresses de manière accessible.
 
 ### **Installation**
 
