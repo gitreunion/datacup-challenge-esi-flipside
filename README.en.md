@@ -1,4 +1,4 @@
-# La Réunion DataCup Challenge - team name
+# La Réunion DataCup Challenge - ESI'Flipside
 
 You can traduct your french readme.
 
