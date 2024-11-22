@@ -1,11 +1,11 @@
-# La Réunion DataCup Challenge 2024 - Nom de l'équipe
+# La Réunion DataCup Challenge 2024 - ESI'Flipside
 
 La [Réunion DataCup Challenge](https://data.regionreunion.com/p/page-reunion-datacup-challenge) est un événement unique où toutes les compétences en manipulation de données sont mises à l’honneur : extraction, traitement, modélisation… Porté par la Région Réunion, *La Réunion DataCup Challenge* s'inscrit dans un cadre de coopération avec les producteurs de données du territoire souhaitant ouvrir, mutualiser et valoriser leurs données. Les thématiques des partenaires sont variées : de la préservation des ressources à l’économie, ou encore des préoccupations des collectivités territoriales et de leurs habitants.
 
 L’objectif de cette seconde édition est de continuer à fédérer une communauté autour des données ouvertes du territoire ainsi qu'initier des projets pérennisables et utiles au plus grand nombre.
 
 
-## Nom de l'équipe
+## ESI'Flipside
 
 Notre équipe a choisi de répondre au défi ... porté par ....
 Ce défi s'inscrit ... (rappeler le contexte).
