@@ -7,9 +7,11 @@ L’objectif de cette seconde édition est de continuer à fédérer une communa
 
 ## ESI'Flipside
 
-Notre équipe a choisi de répondre au défi ... porté par ....
-Ce défi s'inscrit ... (rappeler le contexte).
-Il a pour objectif de ... (rappeler l'objectif).
+Notre équipe a choisi de répondre au défi **La bonne adresse** porté par **EDF et Réunion THD**
+
+Ce défi s'inscrit dans un contexte où de nombreux organismes publics et privés disposent de listes d’adresses qui, collectées au fil du temps, ne sont que rarement contrôlées ou mises à jour. En conséquence, la qualité de ces informations se dégrade progressivement, rendant difficile leur exploitation efficace. Le défi consiste à comparer les données adresses sources à des référentiels existants, d’identifier les données incorrectes et de proposer des pistes de solutions pour les corriger.
+
+Il a pour objectif de concevoir un prototype d’outil d’aide à la correction d’un fichier d’adresses. Cet outil, basé sur une comparaison avec les données de la BAN (Base Adresse Nationale) et de l’ARCEP, permettra non seulement de détecter les écarts entre les sources et les référentiels, mais également de proposer des corrections pertinentes. Par ailleurs, une analyse statistique de la qualité des données sources et une visualisation cartographique des adresses seront également incluses dans le prototype.
 
 
 
