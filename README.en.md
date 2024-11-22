@@ -1,6 +1,6 @@
 # La Réunion DataCup Challenge - ESI'Flipside
 
-You can traduct your french readme.
+You can translate your french readme.
 
 ## challenge name
 
@@ -20,7 +20,7 @@ You can traduct your french readme.
 
 ### **Contributing**
 
-If you wish to conribute to this project, please follow the [recommendations](/CONTRIBUTING.md).
+If you wish to contribute to this project, please follow the [recommendations](/CONTRIBUTING.md).
 
 ### **Licence**
 
