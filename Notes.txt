@@ -1,0 +1,9 @@
+
+
+Regarder les noms de rue de commune (3-bassins)
+
+Comprendre ou sont les problèmes dans les fichiers.
+
+
+    
+Comparaison des adresses en flou avec API
