@@ -6,7 +6,7 @@ The main goal of this second edition is to keep gathering a community around loc
 
 ## ESI'Flipside
 
-Our team has chosen the challenge **The right address** bringed by **EDF and Réunion THD**
+Our team has chosen the challenge **The Right Address** bringed by **EDF and Réunion THD**.
 
 This challenge is part of a context where many public and private organizations have lists of addresses that, collected over time, are rarely checked or updated. As a result, the quality of this information is gradually deteriorating, making it difficult to use them efficiently. This challenge consists of comparing the source address data with existing repositories, identifying incorrect data and give possible solutions to correct them.
 
