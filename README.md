@@ -21,7 +21,7 @@ Notre solution répond au problème de la qualité et de la mise à jour des bas
 
 ### **Installation**
 
-[Guide d'installation (en Anglais)](/INSTALL.md)
+Vous pouvez trouver les étapes pour installer notre application sur notre [Guide d'installation (en Anglais)](/INSTALL.md)
 
 ### **Utilisation**
 
