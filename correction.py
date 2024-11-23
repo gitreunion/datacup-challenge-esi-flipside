@@ -79,14 +79,40 @@ zeop[['matched_id', 'match_score']] = zeop.apply(
     columns_to_match=columns
 )
 
+zeop.rename(columns = {'matched_id':'id'}, inplace=True)
 
+test1 = pd.merge(zeop, ban, on="id")
+final = pd.DataFrame(index=zeop.columns)
+
+final = test1[['lon']].copy()
+
+# Renommer la colonne 'x_y' en 'x'
+final.rename(columns={'x_y': 'x'}, inplace=True)
+final['lat'] = test1['lat']
+
+# Liste des colonnes à ajouter
+colonnes_a_ajouter = [
+    'imb_id', 'num_voie_y', 'cp_no_voie', 'type_voie_y', 'nom_voie_y',
+    'batiment', 'code_insee', 'code_poste', 'imb_etat', 'pm_ref', 
+    'pm_etat', 'code_l331', 'geom_mod', 'type_imb', 
+    'date_completude', 'date_completude_manquante'
+]
+
+# Vérifiez que toutes les colonnes existent dans test1
+colonnes_existe = [col for col in colonnes_a_ajouter if col in test1.columns]
+
+# Ajouter les colonnes existantes à final
+for col in colonnes_existe:
+    final[col] = test1[col].values[:len(final)]
+
+final.to_csv("Resultat.csv")
 
 """ 
 À partir d'ici, nous pouvons tester si les coordonnées géographiques de l'adresse proposée 
 par le scoring correspond à celle donnée initialement.
 
 Coordonnées à tester 
-"""
+
 x_target = 55.29095302
 y_target = -21.10194837    
 
@@ -101,3 +127,4 @@ closest_nom_voie = closest_row['nom_voie']
 
 #print(f"Le nom de la voie la plus proche est : {closest_nom_voie}")
 closest_nom_voie
+"""
