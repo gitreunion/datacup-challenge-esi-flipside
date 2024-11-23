@@ -17,6 +17,8 @@ Its objective here is to design a prototype tool to help correct an address file
 ## **Documentation**
 
 >TODO / **short description of the solution**
+Our solution addresses the problem of the quality and updating of address databases, often collected over time without regular monitoring. It consists of cross-referencing address databases with those provided by authorities and the government and proposing data updates based on a range of conditions. This solution is aimed at all organizations or communities that would like to enhance their address database in an accessible and easy manner.
+
 
 ### **Installation**
 
@@ -25,6 +27,9 @@ Its objective here is to design a prototype tool to help correct an address file
 ### **Usage**
 
 >TODO / **usage documentation of the solution**
+Our solution is aimed to be open-source, accessible to everyone, including companies that need to create an address database. First of all, once the application is deployed, users will be able to access a site that allows them to take as input a CSV file containing at least a column for each specificity of an address (number, name, coordinates, longitudes & latitudes) and the city concerned. The site will therefore be able to analyze this file by comparing it with the CSV file of the National Address Database (BAN) that it can retrieve using the API linked to the site containing the addresses of France (https://adresse.data.gouv.fr).\
+\
+The result of this comparison will be the same CSV file with the corrections applied by the autonomous backend of the site, which will allow users to save time.
 
 ### **Contributing**
 
