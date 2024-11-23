@@ -2,19 +2,19 @@
 
 ## Data Collection
 
-Indicate how to collect the data necessary for this project :
+Indicate how to collect the necessary data for this project :
 - Where and how to get the data ?
 - Where and how to integrate the data in the repository ? (example : in the direcctory data/raw)
 
 ## Dependencies
 
-List of the dependencies necessary to the project so that it can run locally :
-- This project use principally python. The libraries used are python-venv, pandas, flask and others... (you can find them in the requirements directory)
-- In order to install the dependencies you need first to install the python envirement:
+List of the necessary dependencies to the project so that it can run locally :
+- This project use principally python. The libraries used are python-venv, pandas, flask and more... (you can find them in the requirements directory)
+- First and foremost, in order to install the dependencies, you need to install the python environment with the following command:
 ```
 sudo apt -y install python3 python3-pip python3-venv
 ```
-- Then create an virtual python environement to avoid inconpatible libraries version:
+- Then create a virtual python environement to avoid incompatible libraries versions with the rest of your computer :
 ```
 mkdir venv
 python3 -m venv ./venv
@@ -29,23 +29,23 @@ source /venv/bin/activate
 # In windows
 venv\Scripts\activate
 ```
-- Finaly install the libraries in your environment:
+- And finaly, install the dependencies in your environment:
 ```
 pip install -r requirements/requirements.txt
-# install all the librairies on the right version
+# install the right version of all packages from the file "requirements.txt"
 ```
 
 ## Development
 
-Once your python envirements setup and all the dependencies installed, you can lanch the app in your virtual python envirenment :
-```
-# If not in the virtual python environment you can activate it
+Once your python environment setup and all the dependencies installed, you can launch the app in your virtual python environment :
+```bash
+# If not in the virtual python environment, activate it
 # ---
 # In linux
-# source /venv/bin/activate
-" ---
+source /venv/bin/activate
+#---
 # In windows
-# venv\Scripts\activate
+venv\Scripts\activate
 # ---
 
 # then simply run the following command
