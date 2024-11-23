@@ -32,7 +32,7 @@ Le résultat de cette comparaison sera le même fichier CSV avec en plus les col
 
 L'utilisateur pourra donc corriger ses erreurs qui se sont introduites dans son fichier d'adresses.\
 
-D'ailleurs, cette partie suivante est toujours en mode exploration. Mais le site pourra être aussi autonome en corrigeant ces fautes à partir du fichier BAN.
+D'ailleurs, cette partie suivante est toujours en mode exploration. Mais le site pourra être aussi autonome en corrigeant ces fautes à partir du fichier BAN. Ainsi, les utilisateurs pourront gagner du temps.
 
 ### **Contributions**
 
