@@ -8,8 +8,8 @@ Indicate how to collect the necessary data for this project :
 
 ## Dependencies
 
-List of the necessary dependencies to the project so that it can run locally :
-- This project use principally python. The libraries used are python-venv, pandas, flask and more... (you can find them in the requirements directory)
+We'll need a list of the necessary dependencies to the project so that it can run locally :
+- This project mainly uses python. The libraries used are python-venv, pandas, flask and more... (you can find them in the requirements directory)
 - First and foremost, in order to install the dependencies, you need to install the python environment with the following command:
 ```
 sudo apt -y install python3 python3-pip python3-venv
