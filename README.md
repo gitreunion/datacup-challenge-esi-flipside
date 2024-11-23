@@ -33,7 +33,7 @@ Le résultat de cette comparaison sera le même fichier CSV avec les corrections
 
 ### **Contributions**
 
-Si vous souhaitez contribuer à ce projet, merci de suivre les [recommendations](/CONTRIBUTING.md).
+Si vous souhaitez contribuer à ce projet, merci de suivre les [recommendations (en Anglais)](/CONTRIBUTING.md).
 
 ### **Licence**
 
