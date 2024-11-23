@@ -26,7 +26,7 @@ Notre solution répond au problème de la qualité et de la mise à jour des bas
 ### **Utilisation**
 
 
-Notre solution est visée à ce que ça soit open-source, accessible à tout le monde, y compris les entreprises nécessitant de créer une base de données d'adresse. Tout d'abord, une fois que l'application est déployée, les utilisateurs pourront avoir accès à un site permettant de prendre en entrée un fichier CSV contenant au moins une colonne pour chaque spécificité d'une adresse (numéro, nom, coordonnées, longitudes & latitudes) et la ville concernée. Le site va donc pouvoir analyser ce fichier en le comparant avec le fichier CSV de la Base d'Adresses Nationale (BAN) qu'il pourra récupérer grâce à l'API lié au site contenant les adresses de France (https://adresse.data.gouv.fr).\
+Notre solution est visée à ce que ça soit open-source, accessible à tout le monde, y compris les entreprises nécessitant de créer une base de données d'adresse. Tout d'abord, une fois que l'application est déployée, les utilisateurs pourront avoir accès à un site permettant de prendre en entrée un fichier CSV contenant au moins une colonne pour chaque spécificité d'une adresse (numéro, nom, coordonnées, longitudes & latitudes) et la ville concernée. Le site va donc pouvoir analyser ce fichier en le comparant avec le fichier CSV de la Base d'Adresses Nationale (BAN) qu'il pourra récupérer grâce à l'API lié au site contenant les adresses de France [https://adresse.data.gouv.fr].\
 \
 Le résultat de cette comparaison sera le même fichier CSV avec les corrections appliquées par le backend autonome du site, qui permettra aux utilisateurs de gagner du temps.
 
