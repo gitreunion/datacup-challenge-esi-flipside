@@ -32,7 +32,7 @@ def upload_file():
         return "No selected file", 400
 
     # Sauvegarder le fichier téléchargé
-    filepath = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
+    filepath = os.path.join(app.config['UPLOAD_FOLDER'], 'input.csv')
     file.save(filepath)
 
     # Traiter le fichier avec le programme Python
@@ -59,8 +59,13 @@ def process_file(filepath):
     df.to_csv(processed_filepath, index=False)
     return processed_filepath
 
-# Dash app setup
-dash_app = dash.Dash(__name__, server=app, url_base_pathname='/dash/')
+# Dash setup
+dash_app = dash.Dash(
+    __name__,
+    server=app,
+    url_base_pathname='/dash/',
+    external_stylesheets=["https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"]
+)
 
 def create_map(input_path, output_path):
     # Check if files exist
@@ -88,7 +93,7 @@ def create_map(input_path, output_path):
             lon='x',
             color_discrete_sequence=['red'],
             size_max=80,
-            zoom=12,
+            zoom=13,
             mapbox_style="carto-positron",
             hover_name="imb_id",  # Add hover labels from the 'Address' column
             hover_data={"num_voie": True, "type_voie": True, "nom_voie": True, "cp_no_voie":True} 
@@ -111,9 +116,32 @@ def create_map(input_path, output_path):
         )
 
 dash_app.layout = html.Div([
-    html.H1("Map Visualization"),
-    dcc.Graph(id='map', figure=create_map(os.path.join(UPLOAD_FOLDER, 'input.csv'), os.path.join(PROCESSED_FOLDER, 'processed_file.csv')))
-])
+    # Header Section
+    html.Div([
+        html.H1("Address Visualization Map", className="text-center mt-4 mb-4"),
+        html.P(
+            "Explore the input and processed addresses below. Red markers represent input addresses, while blue markers represent processed addresses.",
+            className="text-center text-secondary"
+        ),
+    ], className="container"),
+
+    # Map Section
+    html.Div([
+        dcc.Graph(
+            id='map',
+            figure=create_map(
+                os.path.join(UPLOAD_FOLDER, 'input.csv'),
+                os.path.join(PROCESSED_FOLDER, 'processed_file.csv')
+            ),
+            style={"height": "80vh"}
+        )
+    ], className="container"),
+
+    # Footer Section
+    html.Footer([
+        html.P("Ce site est un site fictif dans le contexte du 2024 DataCup Challenge - ESI Flipside Team", className="text-center text-secondary mt-4")
+    ])
+], className="bg-light")
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=5000)
