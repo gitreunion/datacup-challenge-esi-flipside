@@ -1,0 +1,16 @@
+;nom_voie;type_result;result_street;result_score;result_type;result_status
+659;DE L'ECOLE DU BOIS DE NEFL;Chemin;de l'École du Bois de Nèfles;0.9025062463343108;housenumber;ok
+707;DE L EGLISE;Rue;de l'Église;0.9515927272727271;housenumber;ok
+1893;DES POINSETIAS;Chemin;des Poinsettias;0.8651292578849721;street;ok
+2425;NATIONALE 1 A;Route;Nationale 1a;0.840145652173913;street;ok
+2478;DES TUITS TUITS;Allée;des Tuits-Tuits;0.9576609090909092;housenumber;ok
+2521;DES PAILLE EN QUEUE;Impasse;des Pailles En Queue;0.9032240404040404;housenumber;ok
+2606;DES GRENADIERS;Allée;des Bananiers;0.7581154545454546;housenumber;ok
+2685;LOT AGRICOLE COCAT;Rue;Cocat Lotissement Horyzon Bleu;0.5433632231404958;housenumber;ok
+2710;CALUMETS;Lotissement;les Calumets;0.8875790909090908;housenumber;ok
+2719;DES JASMINS;Impasse;des Lys;0.7241644100580269;street;ok
+2722;GERBERAS - CHEMIN DES BARRIERES;Chemin;des Barrières - Lotissement Les Gerberas;0.9094255844155844;housenumber;ok
+2827;DES TECS TECS;Allée;des Tecs-tecs;0.9492709090909088;housenumber;ok
+2932;ARMANETTES;Chemin;Armanet;0.813739393939394;housenumber;ok
+3006;DE L ALBATROS;Impasse;de l'Albatros;0.9505781818181818;housenumber;ok
+3009;DES ALAMANDAS;Chemin;des Allamandas;0.9375376402321084;housenumber;ok
