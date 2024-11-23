@@ -20,7 +20,7 @@ mkdir venv
 python3 -m venv ./venv
 # Create a virtual Python environments in venv directory. 
 ```
-Activate the virtual python environment
+- Activate the virtual python environment
 ```
 # In linux
 source /venv/bin/activate
