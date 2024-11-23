@@ -5,5 +5,18 @@ Regarder les noms de rue de commune (3-bassins)
 Comprendre ou sont les problèmes dans les fichiers.
 
 
+Reverse inter
+Retransformation en ZEOP
     
 Comparaison des adresses en flou avec API
+
+--
+
+TEst de similartité avec les data test BAN
+
+----
+(Il y a un scoring pour identifier les algo qui sont mal inscrite entre la BAN et la FIRME)
+
+Faire la page applicatif qui va permettre de déposer le fichier FIRME, faire afficher les valeurs du tableau et identifier des valeurs clés pour cooriger les données.
+
+Faire la correction d'un fichier FIRME en utilisant l'API ( et en supossant les coords sont correctes)
