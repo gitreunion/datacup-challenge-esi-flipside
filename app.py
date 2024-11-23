@@ -48,8 +48,8 @@ def process_file(filepath):
     else:
         raise ValueError("Unsupported file format")
 
-    # Exemple de traitement (remplacez par votre logique)
-    df['Processed'] = True  # Ajout d'une colonne fictive
+    # A remplacer paler le code de correction
+    df['Processed'] = True 
 
     # Sauvegarder le fichier traité
     processed_filepath = os.path.join(app.config['PROCESSED_FOLDER'], 'processed_file.csv')
